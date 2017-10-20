@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dogs are always dogs</string>
+    <string name="get_out">get out</string>
+    <string name="dog_lee_s_dialog">dog lee\'s dialog</string>
+    <string name="dialog">这是一条来自李狗的dialog</string>
+    <string name="please_don_t_let_me_down">please don\'t let me down</string>
+    <string name="next_page">next page</string>
+</resources>

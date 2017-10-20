@@ -1,0 +1,3 @@
+include ':app',
+        ':core',                //核心封装lib
+        ':iosPicker'         //仿ios选择器lib

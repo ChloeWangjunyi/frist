@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_enabled="false"
+    android:drawable="@drawable/unified_button_normal_shape"/>
+<item android:state_pressed="true"
+    android:drawable="@drawable/unified_button_selected_shape" />
+<item
+    android:drawable="@drawable/unified_button_cannot_clickable_shape" />
+</selector>

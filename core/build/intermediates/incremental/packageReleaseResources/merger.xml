@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\project\MyApplication\core\src\main\res"/><source path="E:\project\MyApplication\core\build\generated\res\rs\release"/><source path="E:\project\MyApplication\core\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="E:\project\MyApplication\core\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\project\MyApplication\core\src\main\res"><file name="wheel_bg" path="E:\project\MyApplication\core\src\main\res\drawable\wheel_bg.xml" qualifiers="" type="drawable"/><file name="wheel_val" path="E:\project\MyApplication\core\src\main\res\drawable\wheel_val.xml" qualifiers="" type="drawable"/><file name="activity_calendar" path="E:\project\MyApplication\core\src\main\res\layout\activity_calendar.xml" qualifiers="" type="layout"/><file name="base_tool_bar" path="E:\project\MyApplication\core\src\main\res\layout\base_tool_bar.xml" qualifiers="" type="layout"/><file name="base_tool_bar_popupwindow" path="E:\project\MyApplication\core\src\main\res\layout\base_tool_bar_popupwindow.xml" qualifiers="" type="layout"/><file name="base_tool_bar_popupwindow_item" path="E:\project\MyApplication\core\src\main\res\layout\base_tool_bar_popupwindow_item.xml" qualifiers="" type="layout"/><file name="base_tool_bar_popup_search" path="E:\project\MyApplication\core\src\main\res\layout\base_tool_bar_popup_search.xml" qualifiers="" type="layout"/><file name="base_tool_bar_popup_search_item" path="E:\project\MyApplication\core\src\main\res\layout\base_tool_bar_popup_search_item.xml" qualifiers="" type="layout"/><file path="E:\project\MyApplication\core\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SwitchView">
+        <attr format="boolean" name="hasShadow"/>
+        <attr format="color" name="primaryColor"/>
+        <attr format="color" name="primaryColorDark"/>
+        <attr format="boolean" name="isOpened"/>
+    </declare-styleable></file><file path="E:\project\MyApplication\core\src\main\res\values\colors.xml" qualifiers=""><color name="blueTransparent">#803e5271</color><color name="colorWhite0.3">#4dffffff</color><color name="theme">#4caf50</color><color name="blackTransparent">#4b000000</color><color name="hint">#D6D6D6</color><color name="background">#f4f4f4</color><color name="transparentBackground">#80000000</color><color name="colorPrimaryText">#212121</color><color name="colorSecondaryText">#757575</color><color name="colorTxtYellow">#EFE419</color><color name="black">#000000</color><color name="gray02">#eeeeee</color><color name="login">#3cba11</color><color name="colorPrimary">#38366b</color><color name="transparent">#00000000</color><color name="lineBlue"> #2979FF</color><color name="colorWhite">#14ffffff</color><color name="colorDividerPrimary">#BDBDBD</color><color name="colorAccent">#FF4081</color><color name="colorBlack0.7">#a0070113</color><color name="province_line_border">#C7C7C7</color><color name="red">#ff0000</color><color name="orange2">#ffffcc</color><color name="colorPrimaryDark">#37366a</color><color name="orange1">#ffcc9a</color><color name="colorBack_blue">#2b406c</color><color name="green">#599434</color><color name="blue">#04a0f0</color><color name="bg">#f9f9f9</color><color name="orange">#EFE419</color><color name="gray">#eaeaea</color><color name="colorWhite0.22">#38ffffff</color><color name="colorBlack0.3">#4d000000</color><color name="colorPrimary1">#142845</color><color name="colorWhite0.03">#08ffffff</color><color name="colorNext">#80ebe11b</color><color name="white">#ffffff</color><color name="shadow">#aa000000</color></file><file path="E:\project\MyApplication\core\src\main\res\values\dimens.xml" qualifiers=""><dimen name="m_left_margin">8dp</dimen><dimen name="float_margin">4dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="m_right_margin">8dp</dimen><dimen name="bottom_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="right_margin">16dp</dimen><dimen name="m_bottom_margin">8dp</dimen><dimen name="top_margin">16dp</dimen><dimen name="left_margin">16dp</dimen><dimen name="m_top_margin">8dp</dimen></file><file path="E:\project\MyApplication\core\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">core</string></file><file path="E:\project\MyApplication\core\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme.ToolBar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style><style name="AppTheme.AppBarOverly" parent="ThemeOverlay.AppCompat.ActionBar">
+
+    </style><style name="AppTheme.TextFont_Notes_Black">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="StartTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+
+        
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="progress_style" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style><style name="AppTheme.TextFont_BaseText_Gray">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="AppTheme.TextFont_BaseText_Green">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="AppTheme.TextFont_Mini_Gray">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">10sp</item>
+    </style><style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="android:windowBackground">@color/white</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:backgroundDimEnabled">false</item>
+    </style><style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+
+        
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="AppTheme.TextFont_BaseText_Black">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="AppTheme.TextFont_Title_White">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="AppTheme.TextFont_Mini_Black">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">10sp</item>
+    </style><style name="AppTheme.TextFont_Notes_White">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="AppTheme.TextFont_Notes_Gray">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="dialog" parent="@android:style/Animation.Dialog">
+        <item name="android:windowFrame">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style><style name="comment_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="MenuTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="AppTheme.TextFont_Title_Black">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="AppTheme.TextFont_Title_Gray">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="AppTheme.TextFont_Toolbar_White">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+
+        
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style><style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:actionBarSize">46dp</item>
+    </style><style name="AppTheme.TextFont_BaseText_White">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="AppTheme.TextFont_BaseText_Blue">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+    </style></file></source><source path="E:\project\MyApplication\core\build\generated\res\rs\release"/><source path="E:\project\MyApplication\core\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="E:\project\MyApplication\core\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SwitchView"><attr format="boolean" name="hasShadow"/><attr format="color" name="primaryColor"/><attr format="color" name="primaryColorDark"/><attr format="boolean" name="isOpened"/></declare-styleable></configuration></mergedItems></merger>
